@@ -54,16 +54,8 @@ function sortNumber(){
   document.getElementById("SortNumber").innerHTML = output; 
 }
 
-function Sum3(n) {
-  for (let i = 1; i = n; i+) {
-    let str = "";
 
-    if (i % 4 === 0) str += "four"
-    if (str === "") str = i; 
-  
-    console.log(str);
-  }
-}
+
 
 function centuryFromYear(year) {
   let centuryCount = 0;
